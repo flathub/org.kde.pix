@@ -26,8 +26,14 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "http://www.exiv2.org/builds/exiv2-0.27.5-Source.tar.gz",
-                    "sha256": "35a58618ab236a901ca4928b0ad8b31007ebdc0386d904409d825024e45ea6e2"
+                    "url": "https://github.com/Exiv2/exiv2/releases/download/v0.27.5/exiv2-0.27.5-Source.tar.gz",
+                    "sha256": "35a58618ab236a901ca4928b0ad8b31007ebdc0386d904409d825024e45ea6e2",
+                    "x-checker-data": {
+						"type": "anitya",
+						"project-id": 769,
+						"stable-only": true,
+						"url-template": "https://github.com/Exiv2/exiv2/releases/download/v$version/exiv2-$version-Source.tar.gz"
+					}
                 }
             ]
         },
@@ -39,7 +45,13 @@
                 {
                     "type": "archive",
                     "url": "https://download.kde.org/stable/release-service/21.04.1/src/kio-extras-21.04.1.tar.xz",
-                    "sha256": "4ebfca782ed5410903f6ec5bebb5d144447c4b3d50cb4e5f270354b136fe5c4c"
+                    "sha256": "4ebfca782ed5410903f6ec5bebb5d144447c4b3d50cb4e5f270354b136fe5c4c",
+                    "x-checker-data": {
+                        "type": "anitya",
+                        "project-id": 8763,
+                        "stable-only": true,
+                        "url-template": "https://download.kde.org/stable/release-service/$version/src/kio-extras-$version.tar.xz"
+                    }
                 }
             ]
         },
@@ -51,7 +63,13 @@
                 {
                     "type": "archive",
                     "sha256": "3af24f8f8ac85a3215092d6014e60e324f400bbd96d8135ee273cf1d86dedef6",
-                    "url": "https://download.kde.org/stable/maui/mauikit/1.2.2/mauikit-1.2.2.tar.xz"
+                    "url": "https://download.kde.org/stable/maui/mauikit/1.2.2/mauikit-1.2.2.tar.xz",
+                    "x-checker-data": {
+                        "type": "anitya",
+                        "project-id": 242845,
+                        "stable-only": true,
+                        "url-template": "https://download.kde.org/stable/maui/mauikit/$version/mauikit-$version.tar.xz"
+                    }
                 }
             ]
         },
@@ -63,7 +81,13 @@
                 {
                     "type": "archive",
                     "sha256": "5b13f8e53bc7ea960b24064948f3d28bfb39f47529d5fa63a2090a047465c1ea",
-                    "url": "https://download.kde.org/stable/kquickimageeditor/0.1/kquickimageeditor-0.1.3.tar.xz"
+                    "url": "https://download.kde.org/stable/kquickimageeditor/0.1/kquickimageeditor-0.1.3.tar.xz",
+                    "x-checker-data": {
+                        "type": "anitya",
+                        "project-id": 229033,
+                        "stable-only": true,
+                        "url-template": "https://download.kde.org/stable/kquickimageeditor/kquickimageeditor-$version.tar.xz"
+                    }
                 }
             ]
         },
@@ -75,7 +99,13 @@
                 {
                     "type": "archive",
                     "url": "https://download.kde.org/stable/maui/mauikit-imagetools/1.2.2/mauikit-imagetools-1.2.2.tar.xz",
-                    "sha256": "0ef1e75f40aae0e746fc136836505a106307ff392c87680f74e1777f38b4aba8"
+                    "sha256": "0ef1e75f40aae0e746fc136836505a106307ff392c87680f74e1777f38b4aba8",
+                    "x-checker-data": {
+                        "type": "anitya",
+                        "project-id": 242845,
+                        "stable-only": true,
+                        "url-template": "https://download.kde.org/stable/maui/mauikit-imagetools/$version/mauikit-imagetools-$version.tar.xz"
+                    }
                 }
             ]
         },
@@ -87,7 +117,13 @@
                 {
                     "type": "archive",
                     "url": "https://download.kde.org/stable/maui/mauikit-filebrowsing/1.2.2/mauikit-filebrowsing-1.2.2.tar.xz",
-                    "sha256": "22301e96514f5dd83e0b6dc0aefe15dc11ad05edb7bfdf5a891de55fd2414da0"
+                    "sha256": "22301e96514f5dd83e0b6dc0aefe15dc11ad05edb7bfdf5a891de55fd2414da0",
+                    "x-checker-data": {
+                        "type": "anitya",
+                        "project-id": 242845,
+                        "stable-only": true,
+                        "url-template": "https://download.kde.org/stable/maui/mauikit-filebrowsing/$version/mauikit-filebrowsing-$version.tar.xz"
+                    }
                 }
             ]
         },
@@ -99,7 +135,13 @@
                 {
                     "type": "archive",
                     "sha256": "bc550b7bfde5b5762e76b33ac53f8268b6178ae389c953d729b864b22787d54c",
-                    "url": "https://download.kde.org/stable/plasma/5.21.5/kdecoration-5.21.5.tar.xz"
+                    "url": "https://download.kde.org/stable/plasma/5.21.5/kdecoration-5.21.5.tar.xz",
+                    "x-checker-data": {
+                        "type": "anitya",
+                        "project-id": 8761,
+                        "stable-only": true,
+                        "url-template": "https://download.kde.org/stable/plasma/$version/kdecoration-$version.tar.xz"
+                    }
                 }
             ]
         },
@@ -111,7 +153,13 @@
                 {
                     "type": "archive",
                     "url": "https://github.com/psifidotos/applet-window-buttons/archive/refs/tags/0.9.0.tar.gz",
-                    "sha256": "053201441e2cc7c0589c920028b985752ad9a87dc0f7fb35070cf44c9fcfbab7"
+                    "sha256": "053201441e2cc7c0589c920028b985752ad9a87dc0f7fb35070cf44c9fcfbab7",
+                    "x-checker-data": {
+                        "type": "json",
+                        "url": "https://api.github.com/repos/psifidotos/applet-window-buttons/releases/latest",
+                        "version-query": ".tag_name | sub(\"^v\"; \"\")",
+                        "url-query": "select(.name==\"Version \" + $version) | .tarball_url"
+                    }
                 }
             ]
         },
@@ -123,7 +171,13 @@
                 {
                     "type": "archive",
                     "url": "https://download.kde.org/stable/maui/pix/1.2.2/pix-1.2.2.tar.xz",
-                    "sha256": "9ec299ae02a357adcf8b09f14280ae7a71cbf6f10f9030d8e3e9f185b2424573"
+                    "sha256": "9ec299ae02a357adcf8b09f14280ae7a71cbf6f10f9030d8e3e9f185b2424573",
+                    "x-checker-data": {
+                        "type": "anitya",
+                        "project-id": 242845,
+                        "stable-only": true,
+                        "url-template": "https://download.kde.org/stable/maui/pix/$version/pix-$version.tar.xz"
+                    }
                 },
                 {
                     "type": "patch",
