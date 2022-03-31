@@ -29,18 +29,20 @@
                     "url": "https://github.com/Exiv2/exiv2/releases/download/v0.27.5/exiv2-0.27.5-Source.tar.gz",
                     "sha256": "35a58618ab236a901ca4928b0ad8b31007ebdc0386d904409d825024e45ea6e2",
                     "x-checker-data": {
-						"type": "anitya",
-						"project-id": 769,
-						"stable-only": true,
-						"url-template": "https://github.com/Exiv2/exiv2/releases/download/v$version/exiv2-$version-Source.tar.gz"
-					}
+                        "type": "anitya",
+                        "project-id": 769,
+                        "stable-only": true,
+                        "url-template": "https://github.com/Exiv2/exiv2/releases/download/v$version/exiv2-$version-Source.tar.gz"
+                    }
                 }
             ]
         },
         {
             "name": "kio-extras",
             "buildsystem": "cmake-ninja",
-            "config-opts": [ "-DBUILD_TESTING=OFF" ],
+            "config-opts": [
+                "-DBUILD_TESTING=OFF"
+            ],
             "sources": [
                 {
                     "type": "archive",
@@ -57,7 +59,9 @@
         },
         {
             "name": "mauikit",
-            "config-opts": [ "-DBUILD_TESTING=OFF" ],
+            "config-opts": [
+                "-DBUILD_TESTING=OFF"
+            ],
             "buildsystem": "cmake-ninja",
             "sources": [
                 {
@@ -75,7 +79,9 @@
         },
         {
             "name": "kquickimageeditor",
-            "config-opts": [ "-DBUILD_TESTING=OFF" ],
+            "config-opts": [
+                "-DBUILD_TESTING=OFF"
+            ],
             "buildsystem": "cmake-ninja",
             "sources": [
                 {
@@ -94,7 +100,9 @@
         {
             "name": "mauikit-imagetools",
             "buildsystem": "cmake-ninja",
-            "config-opts": [ "-DBUILD_TESTING=OFF" ],
+            "config-opts": [
+                "-DBUILD_TESTING=OFF"
+            ],
             "sources": [
                 {
                     "type": "archive",
@@ -111,7 +119,9 @@
         },
         {
             "name": "mauikit-filebrowsing",
-             "config-opts": [ "-DBUILD_TESTING=OFF" ],
+            "config-opts": [
+                "-DBUILD_TESTING=OFF"
+            ],
             "buildsystem": "cmake-ninja",
             "sources": [
                 {
@@ -129,7 +139,9 @@
         },
         {
             "name": "kdecoration",
-             "config-opts": [ "-DBUILD_TESTING=OFF" ],
+            "config-opts": [
+                "-DBUILD_TESTING=OFF"
+            ],
             "buildsystem": "cmake-ninja",
             "sources": [
                 {
@@ -147,13 +159,15 @@
         },
         {
             "name": "applet-window-buttons",
-            "config-opts": [ "-DBUILD_TESTING=OFF" ],
+            "config-opts": [
+                "-DBUILD_TESTING=OFF"
+            ],
             "buildsystem": "cmake-ninja",
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/psifidotos/applet-window-buttons/archive/refs/tags/0.9.0.tar.gz",
-                    "sha256": "053201441e2cc7c0589c920028b985752ad9a87dc0f7fb35070cf44c9fcfbab7",
+                    "url": "https://api.github.com/repos/psifidotos/applet-window-buttons/tarball/0.11.1",
+                    "sha256": "6237bc8d0693f79d3d2ce438758cb8e46a46b3687fd14c6383e9a034bca5c685",
                     "dest-filename": "applet-window-buttons.tar.gz",
                     "x-checker-data": {
                         "type": "json",
@@ -167,7 +181,9 @@
         {
             "name": "pix",
             "buildsystem": "cmake-ninja",
-            "config-opts": [ "-DBUILD_TESTING=OFF" ],
+            "config-opts": [
+                "-DBUILD_TESTING=OFF"
+            ],
             "sources": [
                 {
                     "type": "archive",
