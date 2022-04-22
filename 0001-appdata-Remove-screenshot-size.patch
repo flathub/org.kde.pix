@@ -1,0 +1,46 @@
+From aaf98b48db314bcdbcb1fc278219c42c31958d59 Mon Sep 17 00:00:00 2001
+From: =?UTF-8?q?Timoth=C3=A9e=20Ravier?= <tim@siosm.fr>
+Date: Fri, 22 Apr 2022 15:53:34 +0200
+Subject: [PATCH] appdata: Remove screenshot size
+
+Those are optionnal and cause failures in Flathub when they don't match
+the one from the image.
+---
+ org.kde.pix.appdata.xml | 12 +++---------
+ 1 file changed, 3 insertions(+), 9 deletions(-)
+
+diff --git a/org.kde.pix.appdata.xml b/org.kde.pix.appdata.xml
+index b31da68..c11e374 100644
+--- a/org.kde.pix.appdata.xml
++++ b/org.kde.pix.appdata.xml
+@@ -87,9 +87,7 @@
+   <url type="donation">https://kde.org/community/donations</url>
+   <screenshots>
+     <screenshot type="default">
+-      <image type="source" width="720" height="1440">
+-          https://cdn.kde.org/screenshots/pix/pix.png
+-      </image>
++      <image type="source">https://cdn.kde.org/screenshots/pix/pix.png</image>
+       <caption>The Pix music player</caption>
+       <caption xml:lang="ca">El reproductor de música Pix</caption>
+       <caption xml:lang="ca-valencia">El reproductor de música Pix</caption>
+@@ -123,14 +121,10 @@
+       <caption xml:lang="zh-TW">Pix 音樂播放器</caption>
+     </screenshot>
+     <screenshot type="default">
+-      <image type="source" width="720" height="1440">
+-          https://cdn.kde.org/screenshots/pix/pix-2.png
+-      </image>
++      <image type="source">https://cdn.kde.org/screenshots/pix/pix-2.png</image>
+     </screenshot>
+     <screenshot type="default">
+-      <image type="source" width="720" height="1440">
+-          https://cdn.kde.org/screenshots/pix/pix-3.png
+-      </image>
++      <image type="source">https://cdn.kde.org/screenshots/pix/pix-3.png</image>
+     </screenshot>
+   </screenshots>
+   <recommends>
+-- 
+2.35.1
+
