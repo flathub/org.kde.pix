@@ -195,6 +195,10 @@
                         "stable-only": true,
                         "url-template": "https://download.kde.org/stable/maui/pix/$version/pix-$version.tar.xz"
                     }
+                },
+                {
+                    "type": "patch",
+                    "path": "0001-appdata-Remove-screenshot-size.patch"
                 }
             ]
         }
