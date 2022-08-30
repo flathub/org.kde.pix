@@ -58,6 +58,17 @@
             ]
         },
         {
+            "name": "mauiman",
+            "buildsystem": "cmake-ninja",
+            "sources": [
+                {
+                    "type": "archive",
+                    "url": "https://download.kde.org/stable/maui/mauiman/1.0.0/mauiman-1.0.0.tar.xz",
+                    "sha256": "027142eec1535a3e3eda8348b21625a4f7ec601c80f2ca3f62049927dfef3ae6"
+                }
+            ]
+        },
+        {
             "name": "mauikit",
             "config-opts": [
                 "-DBUILD_TESTING=OFF"
