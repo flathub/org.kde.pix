@@ -46,8 +46,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/22.04.3/src/kio-extras-22.04.3.tar.xz",
-                    "sha256": "4b1253fd9ba21250c62b13279779b16e88eadff84886c5119964570ed83fb76c",
+                    "url": "https://download.kde.org/stable/release-service/22.08.0/src/kio-extras-22.08.0.tar.xz",
+                    "sha256": "d65b5e7ef956b0f7941323114d2cfaff40b5d895f324868496a261a1af50f63f",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -66,8 +66,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "sha256": "a73e81b3d1631caa7ef9ca358095dc25704f5bad9851be5ea944717a4040b7d8",
-                    "url": "https://download.kde.org/stable/maui/mauikit/2.1.2/mauikit-2.1.2.tar.xz",
+                    "sha256": "02f72ff76c66a5e0506d2d6b2782272f9331dbdccf1a0a3bcd6e391f287f7b15",
+                    "url": "https://download.kde.org/stable/maui/mauikit/2.2.0/mauikit-2.2.0.tar.xz",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 242845,
@@ -106,8 +106,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/maui/mauikit-imagetools/2.1.2/mauikit-imagetools-2.1.2.tar.xz",
-                    "sha256": "d26c56706badc50d990e7156829c8958c0325ba0779888815c474bcf3bea60a0",
+                    "url": "https://download.kde.org/stable/maui/mauikit-imagetools/2.2.0/mauikit-imagetools-2.2.0.tar.xz",
+                    "sha256": "f96e9cf007101a7a15e3b339b0dd774c4c7609b6126cae1223d1e9504c8e941d",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 242845,
@@ -126,8 +126,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/maui/mauikit-filebrowsing/2.1.2/mauikit-filebrowsing-2.1.2.tar.xz",
-                    "sha256": "d8ef2d4d3c4d953a7465542cc4f38dea35803f755bf3cafd116ed6444896ee26",
+                    "url": "https://download.kde.org/stable/maui/mauikit-filebrowsing/2.2.0/mauikit-filebrowsing-2.2.0.tar.xz",
+                    "sha256": "e1af8425eb30dae06be0bd58231d4b74d689735407a94cdb97c6e0d0e7abe78c",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 242845,
@@ -187,8 +187,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/maui/pix/2.1.2/pix-2.1.2.tar.xz",
-                    "sha256": "3a7c1677c8d7b17a723abfd9082e9d526bc03ea76444740225f41e23e2579779",
+                    "url": "https://download.kde.org/stable/maui/pix/2.2.0/pix-2.2.0.tar.xz",
+                    "sha256": "9ef3ec11264753618fb9bc5afb639447ae478722e2b4e539707e9cae92b9f059",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 242845,
