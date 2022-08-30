@@ -46,8 +46,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/22.04.3/src/kio-extras-22.04.3.tar.xz",
-                    "sha256": "4b1253fd9ba21250c62b13279779b16e88eadff84886c5119964570ed83fb76c",
+                    "url": "https://download.kde.org/stable/release-service/22.08.0/src/kio-extras-22.08.0.tar.xz",
+                    "sha256": "d65b5e7ef956b0f7941323114d2cfaff40b5d895f324868496a261a1af50f63f",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -66,8 +66,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "sha256": "a73e81b3d1631caa7ef9ca358095dc25704f5bad9851be5ea944717a4040b7d8",
-                    "url": "https://download.kde.org/stable/maui/mauikit/2.1.2/mauikit-2.1.2.tar.xz",
+                    "sha256": "02f72ff76c66a5e0506d2d6b2782272f9331dbdccf1a0a3bcd6e391f287f7b15",
+                    "url": "https://download.kde.org/stable/maui/mauikit/2.2.0/mauikit-2.2.0.tar.xz",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 242845,
