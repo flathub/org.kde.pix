@@ -157,8 +157,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "sha256": "81cc121f8105a2ea6bbd17047b2f795f1f79c1ee25006290ccf1c69da8ee854b",
-                    "url": "https://download.kde.org/stable/plasma/5.26.1/kdecoration-5.26.1.tar.xz",
+                    "sha256": "81667e2992e5dc1556ddb6ca87a59119af2514abf5b6aeee0935d97585229eb5",
+                    "url": "https://download.kde.org/stable/plasma/5.26.2/kdecoration-5.26.2.tar.xz",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8761,
