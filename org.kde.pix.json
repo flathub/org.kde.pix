@@ -46,8 +46,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/22.08.2/src/kio-extras-22.08.2.tar.xz",
-                    "sha256": "5dd665138834b1401ddee84432107bb9bc9fbe16b599840cf841aebebfd7a466",
+                    "url": "https://download.kde.org/stable/release-service/22.08.3/src/kio-extras-22.08.3.tar.xz",
+                    "sha256": "2836c9417044c4aba8594b7b355edf55aa686c5c40cfde7bf1e4f118843a73eb",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -157,8 +157,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "sha256": "81667e2992e5dc1556ddb6ca87a59119af2514abf5b6aeee0935d97585229eb5",
-                    "url": "https://download.kde.org/stable/plasma/5.26.2/kdecoration-5.26.2.tar.xz",
+                    "sha256": "918b449136478233fc5219487df7ffaafc2b6ae1bd0cd74eab0d790caec3ec59",
+                    "url": "https://download.kde.org/stable/plasma/5.26.3/kdecoration-5.26.3.tar.xz",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8761,
