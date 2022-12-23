@@ -123,8 +123,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/maui/mauikit-imagetools/2.2.0/mauikit-imagetools-2.2.0.tar.xz",
-                    "sha256": "f96e9cf007101a7a15e3b339b0dd774c4c7609b6126cae1223d1e9504c8e941d",
+                    "url": "https://download.kde.org/stable/maui/mauikit-imagetools/2.2.1/mauikit-imagetools-2.2.1.tar.xz",
+                    "sha256": "622bea0b6cebf94bb4a0e1f1711c01828b9755b8be3bea1f0a65e845f8fcd0f1",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 242845,
