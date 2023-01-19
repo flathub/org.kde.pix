@@ -26,8 +26,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/Exiv2/exiv2/releases/download/v0.27.5/exiv2-0.27.5-Source.tar.gz",
-                    "sha256": "35a58618ab236a901ca4928b0ad8b31007ebdc0386d904409d825024e45ea6e2",
+                    "url": "https://github.com/Exiv2/exiv2/releases/download/v0.27.6/exiv2-0.27.6-Source.tar.gz",
+                    "sha256": "4c192483a1125dc59a3d70b30d30d32edace9e14adf52802d2f853abf72db8a6",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 769,
@@ -46,8 +46,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/22.12.0/src/kio-extras-22.12.0.tar.xz",
-                    "sha256": "4815a2f231bb8aa29ac4d38ea5c243238d2042dab6261583e0282cc71c6efa51",
+                    "url": "https://download.kde.org/stable/release-service/22.12.1/src/kio-extras-22.12.1.tar.xz",
+                    "sha256": "fb81d655c97942321888f215c74d07346fc9a0364fd7414ffdf227ff20d2313c",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
