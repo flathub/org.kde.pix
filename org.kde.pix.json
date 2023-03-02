@@ -63,8 +63,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/maui/mauiman/1.0.1/mauiman-1.0.1.tar.xz",
-                    "sha256": "60400780c5d5478a1e32b3c0515dedfa1fd2f2fb0b150521cd91a9e7275a982b",
+                    "url": "https://download.kde.org/stable/maui/mauiman/1.0.2/mauiman-1.0.2.tar.xz",
+                    "sha256": "c49ea08d4b51efb4c6ab95699e837cd5482edbfbd5e45b462a5811208787726c",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 315311,
@@ -123,8 +123,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/maui/mauikit-imagetools/2.2.1/mauikit-imagetools-2.2.1.tar.xz",
-                    "sha256": "622bea0b6cebf94bb4a0e1f1711c01828b9755b8be3bea1f0a65e845f8fcd0f1",
+                    "url": "https://download.kde.org/stable/maui/mauikit-imagetools/2.2.2/mauikit-imagetools-2.2.2.tar.xz",
+                    "sha256": "640d84230480434acd053bada3ce5f2568cba79d4b273aa86b07a15dc401c6c9",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 242845,
@@ -143,8 +143,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/maui/mauikit-filebrowsing/2.2.1/mauikit-filebrowsing-2.2.1.tar.xz",
-                    "sha256": "2cf46ff4e297849acf11349015a7d81dc77c6421636ad4b1d3fba61b6e85efeb",
+                    "url": "https://download.kde.org/stable/maui/mauikit-filebrowsing/2.2.2/mauikit-filebrowsing-2.2.2.tar.xz",
+                    "sha256": "7949629e7b2ffd61f6d3f3c3f8589c0eb2c575ee2fc2e93b710f043215364036",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 242845,
@@ -163,8 +163,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "sha256": "a2fd0f06060635eec1bdec5abbd7a476b4c84dab125391248db5f322e2c7f7b7",
-                    "url": "https://download.kde.org/stable/plasma/5.26.5/kdecoration-5.26.5.tar.xz",
+                    "sha256": "b5ed3f4a3dbfbef0d20a82ae50236998f050d9b59a279ae5f1d848697a0fba75",
+                    "url": "https://download.kde.org/stable/plasma/5.27.2/kdecoration-5.27.2.tar.xz",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8761,
@@ -204,8 +204,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/maui/pix/2.2.1/pix-2.2.1.tar.xz",
-                    "sha256": "a60d9c67bb27897b2411055385875bc67daaac27a857401bbc41fcf63abb5348",
+                    "url": "https://download.kde.org/stable/maui/pix/2.2.2/pix-2.2.2.tar.xz",
+                    "sha256": "fb1a349049728ed666d4ddb3b9d13bb9d93866091e0aecf18c17a8a9822d6148",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 242845,
