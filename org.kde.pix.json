@@ -40,8 +40,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/23.08.1/src/kio-extras-23.08.1.tar.xz",
-                    "sha256": "1c5b559f54ca3736988ba0fae2dcfc4227a195aa442da254dd6cc2e738cd61d9",
+                    "url": "https://download.kde.org/stable/release-service/23.08.2/src/kio-extras-23.08.2.tar.xz",
+                    "sha256": "2b98c6432587286dbf98eeacf03af3cadea267e60f21f7cf445a0c27e94fcc43",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -129,8 +129,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "sha256": "3cfba775498e031f6963669ee0e4426d4fddd48a244b9583620de4d312ba92ca",
-                    "url": "https://download.kde.org/stable/kquickimageeditor/kquickimageeditor-0.2.0.tar.xz",
+                    "sha256": "330ebf3653883eeebde54385d783c51c2d30ff77d41b294ece79af7e9c21c6f8",
+                    "url": "https://download.kde.org/stable/kquickimageeditor/kquickimageeditor-0.3.0.tar.xz",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 229033,
