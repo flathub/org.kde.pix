@@ -293,8 +293,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/maui/pix/3.0.2/pix-3.0.2.tar.xz",
-                    "sha256": "93e00a1cef7dee42d3c6cb6e12ad66e97bf025cb3d3ad8a9a7ed48e216c69772",
+                    "url": "https://download.kde.org/stable/maui/pix/3.1.0/pix-3.1.0.tar.xz",
+                    "sha256": "5080426feb2f3c41fd69ff753ebe9dd3ddac7005eb22fbcbd6d163c974e37d48",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 242845,
