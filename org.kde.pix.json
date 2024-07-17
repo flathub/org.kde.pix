@@ -109,8 +109,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "sha256": "5a68aca611ad7bc737cfda8c0f2fc233497dfdb613b7506d7a6c78bf5c3f61a4",
-                    "url": "https://download.kde.org/stable/maui/mauikit/3.0.2/mauikit-3.0.2.tar.xz",
+                    "sha256": "bf5216cbb93767e0e54ac11f02e057a0a93173f8c10354ccf7eece568356f6ec",
+                    "url": "https://download.kde.org/stable/maui/mauikit/3.1.0/mauikit-3.1.0.tar.xz",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 242845,
