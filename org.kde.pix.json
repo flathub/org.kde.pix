@@ -40,8 +40,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/23.08.5/src/kio-extras-23.08.5.tar.xz",
-                    "sha256": "1ae0ec1cc7239fd4fa46d8cb2629ceb364d4a70e7e56075d2ebfef68eb1b263f",
+                    "url": "https://download.kde.org/stable/release-service/24.08.1/src/kio-extras-24.08.1.tar.xz",
+                    "sha256": "64051dda2f17a3901426c0a9b5ca65b64429f00b6820e7796e605084b0cfceda",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -89,8 +89,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/maui/mauiman/3.0.2/mauiman-3.0.2.tar.xz",
-                    "sha256": "41bb158bc082b4b261915e60213b509cb3555553d047af97a68d19cd667b1f2b",
+                    "url": "https://download.kde.org/stable/maui/mauiman/4.0.0/mauiman-4.0.0.tar.xz",
+                    "sha256": "628a6e85c48e699ef1b57ad8b52e994c32824f687ca11155e2ea8437ae0cb233",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 315311,
@@ -109,8 +109,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "sha256": "5a68aca611ad7bc737cfda8c0f2fc233497dfdb613b7506d7a6c78bf5c3f61a4",
-                    "url": "https://download.kde.org/stable/maui/mauikit/3.0.2/mauikit-3.0.2.tar.xz",
+                    "sha256": "a5fbc22f5b19b11b569c8a9585c2e3b64d3226f7bf8f4b92014953403d10e1d2",
+                    "url": "https://download.kde.org/stable/maui/mauikit/4.0.0/mauikit-4.0.0.tar.xz",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 242845,
@@ -129,8 +129,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "sha256": "330ebf3653883eeebde54385d783c51c2d30ff77d41b294ece79af7e9c21c6f8",
-                    "url": "https://download.kde.org/stable/kquickimageeditor/kquickimageeditor-0.3.0.tar.xz",
+                    "sha256": "d853894811d350fae499c67ebaafb2cc252d3c818b89fcf71757bc34f541a3fb",
+                    "url": "https://download.kde.org/stable/kquickimageeditor/kquickimageeditor-0.4.0.tar.xz",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 229033,
@@ -149,8 +149,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/maui/mauikit-imagetools/3.0.2/mauikit-imagetools-3.0.2.tar.xz",
-                    "sha256": "545f733016a6fa84151857a1712a9a2d35ef5c67038a7acc45980e568fae3ef7",
+                    "url": "https://download.kde.org/stable/maui/mauikit-imagetools/4.0.0/mauikit-imagetools-4.0.0.tar.xz",
+                    "sha256": "7f1f02924691cc764af5f79c0c227735d75cdc3c68457160bd302ccee1699f02",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 242845,
