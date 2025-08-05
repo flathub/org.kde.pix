@@ -6,12 +6,12 @@
     "sdk": "org.kde.Sdk",
     "command": "pix",
     "finish-args": [
+        "--device=dri",
+        "--filesystem=home",
         "--share=ipc",
         "--share=network",
         "--socket=fallback-x11",
-        "--socket=wayland",
-        "--device=dri",
-        "--filesystem=home"
+        "--socket=wayland"
     ],
     "modules": [
         {
