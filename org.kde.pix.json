@@ -40,8 +40,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/25.04.1/src/kio-extras-25.04.1.tar.xz",
-                    "sha256": "f8277fbf8aa4725926b252e2de0367677673c8db585a5ef7bd26760d3c534458",
+                    "url": "https://download.kde.org/stable/release-service/25.04.3/src/kio-extras-25.04.3.tar.xz",
+                    "sha256": "f0b630639e4766ce85b9f8444b5b877fc3b40e09ec2fceb0d961eff4914d3fc8",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -57,8 +57,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/maui/mauiman/4.0.1/mauiman-4.0.1.tar.xz",
-                    "sha256": "b7f75237f7275186539e719f9bcc49c63cf354b78f0c85db37aba0c3d29ffb8c",
+                    "url": "https://download.kde.org/stable/maui/mauiman/4.0.2/mauiman-4.0.2.tar.xz",
+                    "sha256": "81f9f25fbc959040b7efcca1d9d127c5894c6a6baf2ffe53ccba42d682258f00",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 315311,
@@ -77,8 +77,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "sha256": "7d7551a7aa790fc5846cd436255ae98e27f2541ae03869fc283df1a08325cc5d",
-                    "url": "https://download.kde.org/stable/maui/mauikit/4.0.1/mauikit-4.0.1.tar.xz",
+                    "sha256": "054dc0e15242ffa6bb9b8b25515cebfc9a02347b679f3907dcb80673ca93dd40",
+                    "url": "https://download.kde.org/stable/maui/mauikit/4.0.2/mauikit-4.0.2.tar.xz",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 242845,
@@ -241,8 +241,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/maui/mauikit-filebrowsing/4.0.1/mauikit-filebrowsing-4.0.1.tar.xz",
-                    "sha256": "88282ba048090ebe0c5f7a764ebd5bc5a9c61c528cfdf91819b340bfc6002323",
+                    "url": "https://download.kde.org/stable/maui/mauikit-filebrowsing/4.0.2/mauikit-filebrowsing-4.0.2.tar.xz",
+                    "sha256": "cc6f522c6dd9b9ee7cef7adbae56a1a8a9e26cc31dfe2201a117601a10f58d21",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 242845,
@@ -261,8 +261,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/maui/pix/4.0.1/maui-pix-4.0.1.tar.xz",
-                    "sha256": "14f58f5713cad7115896732b5cf90275f65fb016be8b6154928b46b5324c53b8",
+                    "url": "https://download.kde.org/stable/maui/pix/4.0.2/maui-pix-4.0.2.tar.xz",
+                    "sha256": "5159ef16d02e1288c096ce93031d321879a02d5b34d885aba0b845de41dafca0",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 242845,
