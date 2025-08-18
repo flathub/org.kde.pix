@@ -2,7 +2,7 @@
     "id": "org.kde.pix",
     "rename-icon": "pix",
     "runtime": "org.kde.Platform",
-    "runtime-version": "6.8",
+    "runtime-version": "6.9",
     "sdk": "org.kde.Sdk",
     "command": "pix",
     "finish-args": [
@@ -235,7 +235,8 @@
         {
             "name": "mauikit-filebrowsing",
             "config-opts": [
-                "-DBUILD_TESTING=OFF"
+                "-DBUILD_TESTING=OFF",
+                "-DQT_QML_NO_CACHEGEN=ON"
             ],
             "buildsystem": "cmake-ninja",
             "sources": [
