@@ -17,6 +17,7 @@
         {
             "name": "exiv2",
             "buildsystem": "cmake-ninja",
+            "builddir": true,
             "config-opts": [
                 "-DCMAKE_BUILD_TYPE=RelWithDebInfo",
                 "-DEXIV2_BUILD_DOC:BOOL=OFF",
@@ -26,8 +27,38 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/Exiv2/exiv2/releases/download/v0.27.6/exiv2-0.27.6-Source.tar.gz",
-                    "sha256": "4c192483a1125dc59a3d70b30d30d32edace9e14adf52802d2f853abf72db8a6"
+                    "url": "https://github.com/Exiv2/exiv2/archive/refs/tags/v0.28.5.tar.gz",
+                    "sha256": "e1671f744e379a87ba0c984617406fdf8c0ad0c594e5122f525b2fb7c28d394d",
+                    "x-checker-data": {
+                        "type": "anitya",
+                        "project-id": 769,
+                        "stable-only": true,
+                        "url-template": "https://github.com/Exiv2/exiv2/archive/refs/tags/v$version.tar.gz"
+                    }
+                }
+            ],
+            "modules": [
+                {
+                    "name": "inih",
+                    "buildsystem": "meson",
+                    "config-opts": [
+                        "-Ddefault_library=shared",
+                        "-Ddistro_install=true",
+                        "-Dwith_INIReader=true"
+                    ],
+                    "sources": [
+                        {
+                            "type": "archive",
+                            "url": "https://github.com/benhoyt/inih/archive/refs/tags/r60.tar.gz",
+                            "sha256": "706aa05c888b53bd170e5d8aa8f8a9d9ccf5449dfed262d5103d1f292af26774",
+                            "x-checker-data": {
+                                "type": "anitya",
+                                "project-id": 11600,
+                                "stable-only": true,
+                                "url-template": "https://github.com/benhoyt/inih/archive/refs/tags/r$version.tar.gz"
+                            }
+                        }
+                    ]
                 }
             ]
         },
