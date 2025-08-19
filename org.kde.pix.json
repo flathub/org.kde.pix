@@ -166,7 +166,7 @@
                     "config-opts": [
                         "-DCMAKE_BUILD_TYPE=Release",
                         "-DOPENCV_GENERATE_PKGCONFIG=ON",
-                        "-DBUILD_LIST=tracking,dnn"
+                        "-DBUILD_LIST=tracking,dnn,imgcodecs,photo,highgui"
                     ],
                     "cleanup": [
                         "/bin"
@@ -258,6 +258,28 @@
                                 "mkdir -p /app/share/locale/uk",
                                 "cp ukr.traineddata /app/share/locale/uk"
                             ]
+                        }
+                    ]
+                },
+                {
+                    "name": "libkexiv2",
+                    "buildsystem": "cmake-ninja",
+                    "builddir": true,
+                    "config-opts": [
+                        "-DCMAKE_BUILD_TYPE=RelWithDebInfo",
+                        "-DQT_MAJOR_VERSION=6"
+                    ],
+                    "sources": [
+                        {
+                            "type": "archive",
+                            "url": "https://download.kde.org/stable/release-service/25.08.0/src/libkexiv2-25.08.0.tar.xz",
+                            "sha256": "9bb4e5858f35d0dba813ade3c0ff6e7fe750b0930d60a7f4609b48c9563d45eb",
+                            "x-checker-data": {
+                                "type": "anitya",
+                                "project-id": 8763,
+                                "stable-only": true,
+                                "url-template": "https://download.kde.org/stable/release-service/$version/src/libkexiv2-$version.tar.xz"
+                            }
                         }
                     ]
                 }
