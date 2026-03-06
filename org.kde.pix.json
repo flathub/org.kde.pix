@@ -329,6 +329,7 @@
                     "url": "https://download.kde.org/stable/maui/pix/4.0.2/maui-pix-4.0.2.tar.xz",
                     "sha256": "5159ef16d02e1288c096ce93031d321879a02d5b34d885aba0b845de41dafca0",
                     "x-checker-data": {
+                        "is-main-source": true,
                         "type": "anitya",
                         "project-id": 242845,
                         "stable-only": true,
