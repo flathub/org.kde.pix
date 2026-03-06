@@ -2,7 +2,7 @@
     "id": "org.kde.pix",
     "rename-icon": "pix",
     "runtime": "org.kde.Platform",
-    "runtime-version": "6.9",
+    "runtime-version": "6.10",
     "sdk": "org.kde.Sdk",
     "command": "pix",
     "finish-args": [
@@ -38,8 +38,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/Exiv2/exiv2/archive/refs/tags/v0.28.7.tar.gz",
-                    "sha256": "5e292b02614dbc0cee40fe1116db2f42f63ef6b2ba430c77b614e17b8d61a638",
+                    "url": "https://github.com/Exiv2/exiv2/archive/refs/tags/v0.28.8.tar.gz",
+                    "sha256": "ea51b0609f58a9afa063b60daa1539948b62247721e154f4fff0ad3aec9f9756",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 769,
@@ -82,8 +82,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/25.12.2/src/kio-extras-25.12.2.tar.xz",
-                    "sha256": "726fc1eb4d891734ebeed582010dd0a06423fcea5275f1e06e3182a030056b2a",
+                    "url": "https://download.kde.org/stable/release-service/25.12.3/src/kio-extras-25.12.3.tar.xz",
+                    "sha256": "b161e363320f96cffba0195e4045a88049fc3c5b93272532dce5ab6ce886916a",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -176,6 +176,7 @@
                     "builddir": true,
                     "config-opts": [
                         "-DCMAKE_BUILD_TYPE=Release",
+                        "-DCMAKE_POLICY_VERSION_MINIMUM=3.5",
                         "-DOPENCV_GENERATE_PKGCONFIG=ON",
                         "-DBUILD_LIST=tracking,dnn,imgcodecs,photo,highgui"
                     ],
@@ -185,13 +186,25 @@
                     "sources": [
                         {
                             "type": "archive",
-                            "url": "https://github.com/opencv/opencv/archive/4.5.4.tar.gz",
-                            "sha256": "c20bb83dd790fc69df9f105477e24267706715a9d3c705ca1e7f613c7b3bad3d"
+                            "url": "https://github.com/opencv/opencv/archive/4.13.0.tar.gz",
+                            "sha256": "1d40ca017ea51c533cf9fd5cbde5b5fe7ae248291ddf2af99d4c17cf8e13017d",
+                            "x-checker-data": {
+                                "type": "anitya",
+                                "project-id": 6615,
+                                "stable-only": true,
+                                "url-template": "https://github.com/opencv/opencv/archive/$version.tar.gz"
+                            }
                         },
                         {
                             "type": "archive",
-                            "url": "https://github.com/opencv/opencv_contrib/archive/4.5.4.tar.gz",
-                            "sha256": "ad74b440b4539619dc9b587995a16b691246023d45e34097c73e259f72de9f81"
+                            "url": "https://github.com/opencv/opencv_contrib/archive/4.13.0.tar.gz",
+                            "sha256": "1e0077a4fd2960a7d2f4c9e49d6ba7bb891cac2d1be36d7e8e47aa97a9d1039b",
+                            "x-checker-data": {
+                                "type": "anitya",
+                                "project-id": 6615,
+                                "stable-only": true,
+                                "url-template": "https://github.com/opencv/opencv_contrib/archive/$version.tar.gz"
+                            }
                         }
                     ]
                 },
@@ -283,8 +296,8 @@
                     "sources": [
                         {
                             "type": "archive",
-                            "url": "https://download.kde.org/stable/release-service/25.12.2/src/libkexiv2-25.12.2.tar.xz",
-                            "sha256": "b8d914d03ca96b4e2d3a1707af424980a7f0685b109220b25efb76ed7e7778b6",
+                            "url": "https://download.kde.org/stable/release-service/25.12.3/src/libkexiv2-25.12.3.tar.xz",
+                            "sha256": "8ed6de46cdd084a834dd0f2049d6490977a8eedc50a2e59f715fb1cecf6653ec",
                             "x-checker-data": {
                                 "type": "anitya",
                                 "project-id": 8763,
@@ -329,6 +342,7 @@
                     "url": "https://download.kde.org/stable/maui/pix/4.0.2/maui-pix-4.0.2.tar.xz",
                     "sha256": "5159ef16d02e1288c096ce93031d321879a02d5b34d885aba0b845de41dafca0",
                     "x-checker-data": {
+                        "is-main-source": true,
                         "type": "anitya",
                         "project-id": 242845,
                         "stable-only": true,
