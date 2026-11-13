@@ -77,7 +77,8 @@
             "name": "kio-extras",
             "buildsystem": "cmake-ninja",
             "config-opts": [
-                "-DBUILD_TESTING=OFF"
+                "-DBUILD_TESTING=OFF",
+                "-DBUILD_ACTIVITIES=OFF"
             ],
             "sources": [
                 {
