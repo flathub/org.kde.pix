@@ -74,27 +74,6 @@
             ]
         },
         {
-            "name": "kio-extras",
-            "buildsystem": "cmake-ninja",
-            "config-opts": [
-                "-DBUILD_TESTING=OFF",
-                "-DBUILD_ACTIVITIES=OFF"
-            ],
-            "sources": [
-                {
-                    "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/25.12.3/src/kio-extras-25.12.3.tar.xz",
-                    "sha256": "b161e363320f96cffba0195e4045a88049fc3c5b93272532dce5ab6ce886916a",
-                    "x-checker-data": {
-                        "type": "anitya",
-                        "project-id": 8763,
-                        "stable-only": true,
-                        "url-template": "https://download.kde.org/stable/release-service/$version/src/kio-extras-$version.tar.xz"
-                    }
-                }
-            ]
-        },
-        {
             "name": "mauiman",
             "buildsystem": "cmake-ninja",
             "sources": [
